@@ -15,4 +15,10 @@ https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.htm
 ## Creamos el proyecto en el filesystem
 
 
+
 * Probamos
+
+* Instalamos ant, compile, jar y run
+* o más corto ant compile jar run
+
+
