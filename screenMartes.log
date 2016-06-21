@@ -367,4 +367,1696 @@ training@ubuntu-devops:~/repomartes/HelloWorldAnt$ antvi build.xml
 [1;24r[23;9H[36m</[m[33mjar[m[36m>[m[24;63H[K[24;63H33,1[10C42%[23;1H[?12l[?25h[?25l[1;23r[23;1H
 [1;24r[23;5H[36m</[m[33mtarget[m[36m>[m[24;63H[K[24;63H34,1[10C46%[23;1H[?12l[?25h[?25l[1;23r[23;1H
 [1;24r[24;63H[K[24;63H35,0-1[8C50%[23;1H[?12l[?25h[?25l[1;23r[23;1H
-[1;24r[23;5H[36m<[m[33mtarget[m[36m [m[32mname[m=[31m"run"[m[36m [m[32mdepends[m=[31m"jar"[m[36m>[m[24;63H[K[24;63H36,1[10C53%[23;1H[?12l[?25h[?25l[24;64H5,0-1[22;1H[?12l[?25h[?25l[24;64H4,1  [21;1H[?12l[?25h[?25l[24;64H3[20;1H[?12l[?25h[?25l[24;64H2[19;1H[?12l[?25h[?25l[24;64H1[18;1H[?12l[?25h[?25l[24;64H0[17;1H[?12l[?25h[?25l[24;63H29[15;1H[?12l[?25h[?25l[24;63H30[17;1H[?12l[?25h[?25l[24;64H1[18;1H[?12l[?25h[?25l[24;64H2[19;1H[?12l
+[1;24r[23;5H[36m<[m[33mtarget[m[36m [m[32mname[m=[31m"run"[m[36m [m[32mdepends[m=[31m"jar"[m[36m>[m[24;63H[K[24;63H36,1[10C53%[23;1H[?12l[?25h[?25l[24;64H5,0-1[22;1H[?12l[?25h[?25l[24;64H4,1  [21;1H[?12l[?25h[?25l[24;64H3[20;1H[?12l[?25h[?25l[24;64H2[19;1H[?12l[?25h[?25l[24;64H1[18;1H[?12l[?25h[?25l[24;64H0[17;1H[?12l[?25h[?25l[24;63H29[15;1H[?12l[?25h[?25l[24;63H30[17;1H[?12l[?25h[?25l[24;64H1[18;1H[?12l[?25h[?25l[24;64H2[19;1H[?12l[?25h[?25l[24;64H3[20;1H[?12l[?25h[?25l[24;64H4[21;1H[?12l[?25h[?25l[24;64H5,0-1[22;1H[?12l[?25h[?25l[24;64H6,1  [23;1H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;9H[36m<[m[33mjava[m[36m [m[32mfork[m=[31m"true"[m[36m [m[32mclassname[m=[36m${[m[32mmain-class[m[36m}[m[31m">[m[24;63H[K[24;63H37,1-8[8C57%[23;8H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[31m                <classpath>[m[24;63H[K[24;63H38,1-8[8C60%[23;8H[?12l[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[31m                <path refid="[m[36mclasspath[m[31m"/>[m[24;63H[K[24;63H39,1-8[8C64%[23;8H[?12l[?25h[?25l[24;64H8[22;8H[?12l[?25h[?25l[24;64H7[21;8H[?12l[?25h[?25l[24;66H2-9[21;9H[?12l[?25h[?25l[24;66H3-10[21;10H[?12l[?25h[?25l[24;66H4-11[21;11H[?12l[?25h[?25l[24;66H5-12[21;12H[?12l[?25h[?25l[24;66H6-13[21;13H[?12l[?25h[?25l[24;66H7-14[21;14H[?12l[?25h[?25l[24;66H8-15[21;15H[?12l[?25h[?25l[24;66H9-16[21;16H[?12l[?25h[?25l[24;66H10-17[21;17H[?12l[?25h[?25l[24;67H1-18[21;18H[?12l[?25h[?25l[24;67H2-19[21;19H[?12l[?25h[?25l[24;67H3-20[21;20H[?12l[?25h[?25l[24;67H4-21[21;21H[?12l[?25h[?25l[24;67H5-22[21;22H[?12l[?25h[?25l[24;67H6-23[21;23H[?12l[?25h[?25l[24;67H7-24[21;24H[?12l[?25h[?25l[24;67H8-25[21;25H[?12l[?25h[?25l[24;67H9-26[21;26H[?12l[?25h[?25l[24;66H20-27[21;27H[?12l[?25h[?25l[24;67H1-28[21;28H[?12l[?25h[?25l[24;67H2-29[21;29H[?12l[?25h[?25l[24;67H3-30[21;30H[?12l[?25h[?25l[24;67H4-31[21;31H[?12l[?25h[?25l[24;67H5-32[21;32H[?12l[?25h[?25l[24;67H6-33[21;33H[?12l[?25h[?25l[24;67H7-34[21;34H[?12l[?25h[?25l[24;67H8-35[21;35H[?12l[?25h[?25l[24;67H9-36[21;36H[?12l[?25h[?25l[24;66H30-37[21;37H[?12l[?25h[?25l
+
+
+[1m-- INSERT --[m[24;63H[K[24;63H37,30-37      64%[21;37H[?12l[?25h[?25l[31m"${main-class}"[m[36m>[m
+                [36m<[m[33mclasspath[m[36m>[m
+                [36m<[m[33mpath[m[36m [m[32mrefid[m=[1C[31mclasspath[m[1C[36m/>[m[24;67H1-38[21;38H[?12l[?25h[24;1H[K[21;37H[?25l[24;63H37,30-37      64%[21;37H[?12l[?25h[?25l
+
+
+"build.xml"[24;63H[K[24;13H49L, 1357C written
+[?1l>[?12l[?25h[?1049ltraining@ubuntu-devops:~/repomartes/HelloWorldAnt$ ant
+Buildfile: /home/training/repomartes/HelloWorldAnt/build.xml
+
+clean:
+   [delete] Deleting directory /home/training/repomartes/HelloWorldAnt/build
+
+compile:
+    [mkdir] Created dir: /home/training/repomartes/HelloWorldAnt/build/classes
+    [javac] /home/training/repomartes/HelloWorldAnt/build.xml:24: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/training/repomartes/HelloWorldAnt/build/classes
+
+jar:
+    [mkdir] Created dir: /home/training/repomartes/HelloWorldAnt/build/jar
+      [jar] Building jar: /home/training/repomartes/HelloWorldAnt/build/jar/HelloWorld.jar
+
+run:
+     [java] 0 [main] INFO oata.HelloWorld  - Hello World
+
+main:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+training@ubuntu-devops:~/repomartes/HelloWorldAnt$ git .[Kadd .
+training@ubuntu-devops:~/repomartes/HelloWorldAnt$ git commit -a[Km "Build extendid o para la libreria"
+[master d285bbe] Build extendido para la libreria
+ 1612 files changed, 343604 insertions(+), 4 deletions(-)
+ create mode 100644 lib/apache-log4j-1.2.17/INSTALL
+ create mode 100644 lib/apache-log4j-1.2.17/KEYS
+ create mode 100644 lib/apache-log4j-1.2.17/LICENSE
+ create mode 100644 lib/apache-log4j-1.2.17/NOTICE
+ create mode 100755 lib/apache-log4j-1.2.17/NTEventLogAppender.amd64.dll
+ create mode 100755 lib/apache-log4j-1.2.17/NTEventLogAppender.dll
+ create mode 100644 lib/apache-log4j-1.2.17/build.properties.sample
+ create mode 100644 lib/apache-log4j-1.2.17/build.xml
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/CONTENTS
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/CekiGulcu/AppenderTable.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/CekiGulcu/Transform.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/EirikLygre/DailyFileAppender1.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/EirikLygre/mail-2001-01-18
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/JamesHouse/LogTextPanel.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/JamesHouse/LogTextPanelExample.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/JamesHouse/TextPanelAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/JamesHouse/mail-2001-01-23
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/Jamie Tsao/JMSQueueAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/Jamie Tsao/mail-2001-06-20
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/JimMoore/LoggingOutputStream.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/JimMoore/mail-2001-03-12T1326
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/JimMoore/mail-2001-03-12T1454
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/JimMoore/mail-2001-03-13T0646
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/KevinSteppe/CompositeRollingAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/KevinSteppe/JDBCTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/KevinSteppe/mail-2001-02-01
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/KevinSteppe/mail-2002-03-27.txt
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/KitchingSimon/DatagramStringAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/KitchingSimon/DatagramStringWriter.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/KitchingSimon/SingleLineTracerPrintWriter.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/KitchingSimon/logconfig.xml
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/KitchingSimon/mail-2001-02-07
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/KitchingSimon/udpserver.pl
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/LeosLiterak/TempFileAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/LeosLiterak/mail
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/MarkDouglas/Log.txt
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/MarkDouglas/SocketNode2.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/MarkDouglas/SocketServer2.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/MarkDouglas/mail-2001-01-17
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/SvenReimers/gui/JListView.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/SvenReimers/gui/JTableAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/SvenReimers/gui/TextPaneAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/SvenReimers/gui/examples/TextPaneAppenderExample.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/ThomasFenner/JDBCAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/ThomasFenner/JDBCConnectionHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/ThomasFenner/JDBCIDHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/ThomasFenner/JDBCLogger.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/ThomasFenner/Log4JTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/ThomasFenner/code_example1.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/ThomasFenner/code_example2.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/ThomasFenner/configfile_example.txt
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/VolkerMentzner/HTTPRequestHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/VolkerMentzner/Log4jRequestHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/VolkerMentzner/PluggableHTTPServer.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/VolkerMentzner/RootRequestHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/VolkerMentzner/UserDialogRequestHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/contribs/VolkerMentzner/mail-03-05-2001
+ create mode 100644 lib/apache-log4j-1.2.17/examples/MyPatternLayout.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/MyPatternParser.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/NumberCruncher.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/NumberCruncherClient.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/NumberCruncherServer.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/Sort.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/SortAlgo.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/Trivial.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/customLevel/XLevel.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/factor.html
+ create mode 100644 lib/apache-log4j-1.2.17/examples/factor.lcf
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/InitUsingDefaultConfigurator/InitUsingDefaultConfigurator.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/InitUsingLog4JProperties/InitUsingLog4JProperties.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/InitUsingLog4JProperties/log4j.properties
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/InitUsingMultipleAppenders/InitUsingMultipleAppenders.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/InitUsingMultipleAppenders/example.properties
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/InitUsingPropertiesFile/InitUsingPropertiesFile.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/InitUsingPropertiesFile/example.properties
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/InitUsingXMLPropertiesFile/InitUsingXMLPropertiesFile.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/InitUsingXMLPropertiesFile/example.xml
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/UsingLogMonitorAdapter/CustomizedLogLevels.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/UsingLogMonitorAdapter/UsingLogMonitorAdapter.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/UsingSocketAppenders/UsingSocketAppenders.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/UsingSocketAppenders/socketclient.properties
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/UsingSocketAppenders/socketserver.properties
+ create mode 100644 lib/apache-log4j-1.2.17/examples/lf5/index.html
+ create mode 100644 lib/apache-log4j-1.2.17/examples/mycat.bad
+ create mode 100644 lib/apache-log4j-1.2.17/examples/mycat.good
+ create mode 100644 lib/apache-log4j-1.2.17/examples/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/examples/sort1.properties
+ create mode 100644 lib/apache-log4j-1.2.17/examples/sort2.properties
+ create mode 100644 lib/apache-log4j-1.2.17/examples/sort3.properties
+ create mode 100644 lib/apache-log4j-1.2.17/examples/sort4.properties
+ create mode 100644 lib/apache-log4j-1.2.17/examples/subclass/MyLogger.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/subclass/MyLoggerFactory.java
+ create mode 100644 lib/apache-log4j-1.2.17/examples/subclass/MyLoggerTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/pom.xml
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/allclasses-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/allclasses-noframe.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/constant-values.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/deprecated-list.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/help-doc.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/index-all.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/index.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/options
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/Appender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/AppenderSkeleton.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/AsyncAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/BasicConfigurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/Category.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/ConsoleAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/DailyRollingFileAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/DefaultThrowableRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/EnhancedPatternLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/EnhancedThrowableRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/FileAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/HTMLLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/Hierarchy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/Layout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/Level.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/LogMF.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/LogManager.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/LogSF.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/LogXF.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/Logger.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/MDC.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/NDC.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/PatternLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/Priority.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/PropertyConfigurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/RollingFileAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/SimpleLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/TTCCLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/WriterAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/chainsaw/Main.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/chainsaw/class-use/Main.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/chainsaw/doc-files/screen_01.png
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/chainsaw/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/chainsaw/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/chainsaw/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/chainsaw/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/Appender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/AppenderSkeleton.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/AsyncAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/BasicConfigurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/Category.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/ConsoleAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/DailyRollingFileAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/DefaultThrowableRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/EnhancedPatternLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/EnhancedThrowableRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/FileAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/HTMLLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/Hierarchy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/Layout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/Level.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/LogMF.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/LogManager.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/LogSF.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/LogXF.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/Logger.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/MDC.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/NDC.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/PatternLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/Priority.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/PropertyConfigurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/RollingFileAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/SimpleLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/TTCCLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/class-use/WriterAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/PropertyGetter.PropertyCallback.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/PropertyGetter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/PropertyPrinter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/PropertySetter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/PropertySetterException.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/class-use/PropertyGetter.PropertyCallback.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/class-use/PropertyGetter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/class-use/PropertyPrinter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/class-use/PropertySetter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/class-use/PropertySetterException.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/config/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/AbsoluteTimeDateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/AppenderAttachableImpl.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/BoundedFIFO.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/CountingQuietWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/CyclicBuffer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/DateLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/DateTimeDateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/FileWatchdog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/FormattingInfo.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/ISO8601DateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/Loader.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/LogLog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/MDCKeySetExtractor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/NullEnumeration.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/OnlyOnceErrorHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/OptionConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/PatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/PatternParser.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/QuietWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/RelativeTimeDateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/SyslogQuietWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/SyslogWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/ThreadLocalMap.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/Transform.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/UtilLoggingLevel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/AbsoluteTimeDateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/AppenderAttachableImpl.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/BoundedFIFO.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/CountingQuietWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/CyclicBuffer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/DateLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/DateTimeDateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/FileWatchdog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/FormattingInfo.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/ISO8601DateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/Loader.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/LogLog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/MDCKeySetExtractor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/NullEnumeration.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/OnlyOnceErrorHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/OptionConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/PatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/PatternParser.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/QuietWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/RelativeTimeDateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/SyslogQuietWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/SyslogWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/ThreadLocalMap.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/Transform.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/class-use/UtilLoggingLevel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/helpers/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jdbc/JDBCAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jdbc/class-use/JDBCAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jdbc/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jdbc/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jdbc/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jdbc/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/AbstractDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/Agent.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/AppenderDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/HierarchyDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/LayoutDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/LoggerDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/class-use/AbstractDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/class-use/Agent.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/class-use/AppenderDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/class-use/HierarchyDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/class-use/LayoutDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/class-use/LoggerDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/jmx/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/AppenderFinalizer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/DefaultLF5Configurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/LF5Appender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/Log4JLogRecord.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/LogLevel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/LogLevelFormatException.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/LogRecord.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/LogRecordFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/PassingLogRecordFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/StartLogFactor5.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/class-use/AppenderFinalizer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/class-use/DefaultLF5Configurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/class-use/LF5Appender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/class-use/Log4JLogRecord.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/class-use/LogLevel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/class-use/LogLevelFormatException.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/class-use/LogRecord.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/class-use/LogRecordFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/class-use/PassingLogRecordFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/class-use/StartLogFactor5.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/AdapterLogRecord.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/DateFormatManager.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/LogFileParser.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/LogMonitorAdapter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/Resource.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/ResourceUtils.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/StreamUtils.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/class-use/AdapterLogRecord.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/class-use/DateFormatManager.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/class-use/LogFileParser.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/class-use/LogMonitorAdapter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/class-use/Resource.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/class-use/ResourceUtils.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/class-use/StreamUtils.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/util/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/FilteredLogTableModel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/LF5SwingUtils.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/LogBrokerMonitor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/LogFactor5Dialog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/LogFactor5ErrorDialog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/LogFactor5InputDialog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/LogFactor5LoadingDialog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/LogTable.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/LogTableColumn.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/LogTableColumnFormatException.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/LogTableModel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/LogTableRowRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/TrackingAdjustmentListener.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryAbstractCellEditor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryElement.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerLogRecordFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerModel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerTree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryImmediateEditor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNode.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditorRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryPath.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/TreeModelAdapter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/class-use/CategoryAbstractCellEditor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/class-use/CategoryElement.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/class-use/CategoryExplorerLogRecordFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/class-use/CategoryExplorerModel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/class-use/CategoryExplorerTree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/class-use/CategoryImmediateEditor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/class-use/CategoryNode.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/class-use/CategoryNodeEditor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/class-use/CategoryNodeEditorRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/class-use/CategoryNodeRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/class-use/CategoryPath.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/class-use/TreeModelAdapter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/categoryexplorer/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/class-use/FilteredLogTableModel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/class-use/LF5SwingUtils.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/class-use/LogBrokerMonitor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/class-use/LogFactor5Dialog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/class-use/LogFactor5ErrorDialog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/class-use/LogFactor5InputDialog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/class-use/LogFactor5LoadingDialog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/class-use/LogTable.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/class-use/LogTableColumn.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/class-use/LogTableColumnFormatException.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/class-use/LogTableModel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/class-use/LogTableRowRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/class-use/TrackingAdjustmentListener.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/configure/MRUFileManager.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/configure/class-use/ConfigurationManager.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/configure/class-use/MRUFileManager.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/configure/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/configure/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/configure/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/configure/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/lf5/viewer/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/JMSAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/JMSSink.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/SMTPAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/SimpleSocketServer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/SocketAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/SocketHubAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/SocketNode.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/SocketServer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/SyslogAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/TelnetAppender.SocketHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/TelnetAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/ZeroConfSupport.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/class-use/JMSAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/class-use/JMSSink.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/class-use/SMTPAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/class-use/SimpleSocketServer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/class-use/SocketAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/class-use/SocketHubAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/class-use/SocketNode.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/class-use/SocketServer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/class-use/SyslogAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/class-use/TelnetAppender.SocketHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/class-use/TelnetAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/class-use/ZeroConfSupport.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/net/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/nt/NTEventLogAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/nt/class-use/NTEventLogAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/nt/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/nt/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/nt/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/nt/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/ObjectRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/RendererMap.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/ThreadGroupRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/class-use/ObjectRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/class-use/RendererMap.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/class-use/ThreadGroupRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/jms/MessageRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/jms/class-use/MessageRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/jms/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/jms/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/jms/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/jms/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/sax/AttributesRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/sax/class-use/AttributesRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/sax/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/sax/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/sax/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/or/sax/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/BridgePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/BridgePatternParser.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/CachedDateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/ClassNamePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/DatePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/FileDatePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/FileLocationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/FormattingInfo.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/FullLocationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/IntegerPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/LevelPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/LineLocationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/LineSeparatorPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/LiteralPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/LogEvent.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/LoggerPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/LoggingEventPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/MessagePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/MethodLocationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/NDCPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/NameAbbreviator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/NamePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/PatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/PatternParser.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/PropertiesPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/RelativeTimePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/SequenceNumberPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/ThreadPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/ThrowableInformationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/BridgePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/BridgePatternParser.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/CachedDateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/ClassNamePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/DatePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/FileDatePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/FileLocationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/FormattingInfo.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/FullLocationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/IntegerPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/LevelPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/LineLocationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/LineSeparatorPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/LiteralPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/LogEvent.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/LoggerPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/LoggingEventPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/MessagePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/MethodLocationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/NDCPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/NameAbbreviator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/NamePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/PatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/PatternParser.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/PropertiesPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/RelativeTimePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/SequenceNumberPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/ThreadPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/class-use/ThrowableInformationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/pattern/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/MapRewritePolicy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/PropertyRewritePolicy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/ReflectionRewritePolicy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/RewriteAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/RewritePolicy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/class-use/MapRewritePolicy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/class-use/PropertyRewritePolicy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/class-use/ReflectionRewritePolicy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/class-use/RewriteAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/class-use/RewritePolicy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/rewrite/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/AppenderAttachable.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/Configurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/DefaultRepositorySelector.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/ErrorCode.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/ErrorHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/Filter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/HierarchyEventListener.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/LocationInfo.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/LoggerFactory.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/LoggerRepository.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/LoggingEvent.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/NOPLogger.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/NOPLoggerRepository.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/OptionHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/RendererSupport.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/RepositorySelector.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/RootCategory.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/RootLogger.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/ThrowableInformation.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/ThrowableRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/ThrowableRendererSupport.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/TriggeringEventEvaluator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/AppenderAttachable.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/Configurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/DefaultRepositorySelector.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/ErrorCode.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/ErrorHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/Filter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/HierarchyEventListener.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/LocationInfo.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/LoggerFactory.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/LoggerRepository.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/LoggingEvent.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/NOPLogger.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/NOPLoggerRepository.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/OptionHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/RendererSupport.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/RepositorySelector.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/RootCategory.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/RootLogger.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/ThrowableInformation.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/ThrowableRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/ThrowableRendererSupport.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/class-use/TriggeringEventEvaluator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/spi/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/DenyAllFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/ExternallyRolledFileAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/FallbackErrorHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/LevelMatchFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/LevelRangeFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/NullAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/ReloadingPropertyConfigurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/Roller.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/StringMatchFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/class-use/DenyAllFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/class-use/ExternallyRolledFileAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/class-use/FallbackErrorHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/class-use/LevelMatchFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/class-use/LevelRangeFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/class-use/NullAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/class-use/ReloadingPropertyConfigurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/class-use/Roller.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/class-use/StringMatchFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/varia/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/DOMConfigurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/Log4jEntityResolver.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/SAXErrorHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/UnrecognizedElementHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/XMLLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/class-use/DOMConfigurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/class-use/Log4jEntityResolver.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/class-use/SAXErrorHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/class-use/UnrecognizedElementHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/class-use/XMLLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/examples/XMLSample.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/examples/class-use/XMLSample.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/examples/doc-files/XMLSample.java
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/examples/doc-files/sample1.xml
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/examples/doc-files/sample2.xml
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/examples/doc-files/sample3.xml
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/examples/doc-files/sample4.xml
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/examples/doc-files/sample5.xml
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/examples/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/examples/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/examples/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/examples/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/package-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/org/apache/log4j/xml/package-use.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/overview-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/overview-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/overview-tree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/package-list
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/packages
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/resources/inherit.gif
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/serialized-form.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/apidocs/stylesheet.css
+ create mode 100644 lib/apache-log4j-1.2.17/site/building.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/changes-report.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/css/maven-base.css
+ create mode 100644 lib/apache-log4j-1.2.17/site/css/maven-theme.css
+ create mode 100644 lib/apache-log4j-1.2.17/site/css/site.css
+ create mode 100644 lib/apache-log4j-1.2.17/site/dependencies.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/download.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/faq.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/add.gif
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/close.gif
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/external.png
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/fix.gif
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/icon_error_sml.gif
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/icon_help_sml.gif
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/icon_info_sml.gif
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/icon_success_sml.gif
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/icon_warning_sml.gif
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/logo.jpg
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/ls-logo.jpg
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/maven-feather.png
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/newwindow.png
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/od.gif
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/remove.gif
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/rss.png
+ create mode 100644 lib/apache-log4j-1.2.17/site/images/update.gif
+ create mode 100644 lib/apache-log4j-1.2.17/site/index.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/integration.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/issue-tracking.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/license.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/mail-lists.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/manual.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/project-info.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/project-reports.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/publications.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/roadmap.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/source-repository.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/allclasses-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/index.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/AsyncAppenderTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/CategoryTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/CoreTestSuite.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/DRFATestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/DefaultThrowableRendererTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/EnhancedMyPatternLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/EnhancedPatternLayoutTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/EnhancedPatternLayoutTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/EnhancedThrowableRendererTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/FileAppenderTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/HTMLLayoutTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/HierarchyThresholdTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/Last.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/LayoutTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/LevelTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/LogCapture.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/LogManagerTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/LoggerTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/MDCOrderFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/MDCTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/MinimumTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/MyPatternLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/MyPatternParser.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/PatternLayoutTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/PatternLayoutTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/PriorityTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/PropertyConfiguratorTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/RFATestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/StressCategory.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/TTCCLayoutTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/TestLogMF.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/TestLogSF.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/TestLogXF.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/VectorAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/VectorErrorHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/customLogger/XLogger.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/customLogger/XLoggerTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/customLogger/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/customLogger/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/TestCase1.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/TestCase2.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/TestCase3.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/TestCase4.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/BoundedFIFOTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/CyclicBufferTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/DateLayoutTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/LogLogTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/OptionConverterTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/PatternParserTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/UtilLoggingLevelTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/SMTPAppenderTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/ShortSocketServer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/SocketAppenderTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/SocketServerTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/SyslogAppenderTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/TelnetAppenderTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/nt/NTEventLogAppenderTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/nt/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/nt/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/or/ORTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/or/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/or/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/CachedDateFormatTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/FormattingInfoTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/NameAbbreviatorTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/Num343PatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/PatternParserTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/rewrite/RewriteAppenderTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/rewrite/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/rewrite/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/spi/LocationInfoTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/spi/LoggingEventTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/spi/ThrowableInformationTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/spi/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/spi/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/AbsoluteDateAndTimeFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/AbsoluteTimeFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/Compare.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/ControlFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/EnhancedJunitTestRunnerFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/EnhancedLineNumberFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/Filter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/ISO8601Filter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/JunitTestRunnerFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/LineNumberFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/RelativeTimeFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/SerializationTestHelper.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/SunReflectFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/Transformer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/UnexpectedFormatException.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/XMLLineAttributeFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/XMLTimestampFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/varia/ERFATestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/varia/ErrorHandlerTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/varia/LevelMatchFilterTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/varia/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/varia/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/CustomLevelTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/DOMTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/XLevel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/XMLLayoutTest.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/XMLLayoutTestCase.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/overview-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/overview-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref-test/stylesheet.css
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/allclasses-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/index.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/Appender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/AppenderSkeleton.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/AsyncAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/BasicConfigurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/Category.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/CategoryKey.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/ConsoleAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/DailyRollingFileAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/DefaultCategoryFactory.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/DefaultThrowableRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/Dispatcher.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/EnhancedPatternLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/EnhancedThrowableRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/FileAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/HTMLLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/Hierarchy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/Layout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/Level.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/LogMF.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/LogManager.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/LogSF.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/LogXF.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/Logger.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/MDC.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/NDC.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/PatternLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/Priority.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/PropertyConfigurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/ProvisionNode.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/RollingFileAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/SimpleLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/TTCCLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/WriterAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/ControlPanel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/DetailPanel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/EventDetails.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/ExitAction.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/LoadXMLAction.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/LoggingReceiver.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/Main.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/MyTableModel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/XMLFileHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/PropertyGetter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/PropertyPrinter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/PropertySetter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/PropertySetterException.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/AbsoluteTimeDateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/AppenderAttachableImpl.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/BoundedFIFO.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/CountingQuietWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/CyclicBuffer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/DateLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/DateTimeDateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/FileWatchdog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/FormattingInfo.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/ISO8601DateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/Loader.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/LogLog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/MDCKeySetExtractor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/NullEnumeration.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/OnlyOnceErrorHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/OptionConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/PatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/PatternParser.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/QuietWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/RelativeTimeDateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/SyslogQuietWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/SyslogWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/ThreadLocalMap.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/Transform.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/UtilLoggingLevel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/jdbc/JDBCAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/jdbc/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/jdbc/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/AbstractDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/Agent.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/AppenderDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/HierarchyDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/LayoutDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/LoggerDynamicMBean.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/MethodUnion.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/AppenderFinalizer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/DefaultLF5Configurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/LF5Appender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/Log4JLogRecord.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/LogLevel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/LogLevelFormatException.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/LogRecord.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/LogRecordFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/PassingLogRecordFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/StartLogFactor5.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/AdapterLogRecord.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/DateFormatManager.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/LogFileParser.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/LogMonitorAdapter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/Resource.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/ResourceUtils.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/StreamUtils.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/FilteredLogTableModel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/LF5SwingUtils.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/LogBrokerMonitor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/LogFactor5Dialog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/LogFactor5ErrorDialog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/LogFactor5InputDialog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/LogFactor5LoadingDialog.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/LogTable.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/LogTableColumn.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/LogTableColumnFormatException.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/LogTableModel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/LogTableRowRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/TrackingAdjustmentListener.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryAbstractCellEditor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryElement.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerLogRecordFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerModel.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerTree.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryImmediateEditor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNode.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditorRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryPath.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/TreeModelAdapter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/configure/MRUFileManager.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/configure/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/configure/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/JMSAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/JMSSink.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/SMTPAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/SimpleSocketServer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/SocketAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/SocketHubAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/SocketNode.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/SocketServer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/SyslogAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/TelnetAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/ZeroConfSupport.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/nt/NTEventLogAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/nt/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/nt/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/DefaultRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/ObjectRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/RendererMap.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/ThreadGroupRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/jms/MessageRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/jms/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/jms/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/sax/AttributesRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/sax/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/sax/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/BridgePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/BridgePatternParser.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/CachedDateFormat.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/ClassNamePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/DatePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/FileDatePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/FileLocationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/FormattingInfo.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/FullLocationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/IntegerPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/LevelPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/LineLocationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/LineSeparatorPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/LiteralPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/LogEvent.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/LoggerPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/LoggingEventPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/MessagePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/MethodLocationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/NDCPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/NameAbbreviator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/NamePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/PatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/PatternParser.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/PropertiesPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/RelativeTimePatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/SequenceNumberPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/ThreadPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/ThrowableInformationPatternConverter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/MapRewritePolicy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/PropertyRewritePolicy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/ReflectionRewritePolicy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/RewriteAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/RewritePolicy.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/AppenderAttachable.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/Configurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/DefaultRepositorySelector.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/ErrorCode.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/ErrorHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/Filter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/HierarchyEventListener.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/LocationInfo.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/LoggerFactory.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/LoggerRepository.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/LoggingEvent.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/NOPLogger.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/NOPLoggerRepository.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/NullWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/OptionHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/RendererSupport.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/RepositorySelector.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/RootCategory.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/RootLogger.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/ThrowableInformation.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/ThrowableRenderer.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/ThrowableRendererSupport.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/TriggeringEventEvaluator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/VectorWriter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/DenyAllFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/ExternallyRolledFileAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/FallbackErrorHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/LevelMatchFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/LevelRangeFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/NullAppender.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/ReloadingPropertyConfigurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/Roller.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/StringMatchFilter.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/DOMConfigurator.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/Log4jEntityResolver.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/SAXErrorHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/UnrecognizedElementHandler.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/XMLLayout.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/package-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/package-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/overview-frame.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/overview-summary.html
+ create mode 100644 lib/apache-log4j-1.2.17/site/xref/stylesheet.css
+ create mode 100644 lib/apache-log4j-1.2.17/src/assembly/bin.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/changes/changes.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/Appender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/AppenderSkeleton.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/AsyncAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/BasicConfigurator.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/Category.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/CategoryKey.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/ConsoleAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/DailyRollingFileAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/DefaultCategoryFactory.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/DefaultThrowableRenderer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/Dispatcher.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/EnhancedPatternLayout.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/EnhancedThrowableRenderer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/FileAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/HTMLLayout.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/Hierarchy.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/Layout.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/Level.java
+ create mode 100755 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/LogMF.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/LogManager.java
+ create mode 100755 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/LogSF.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/LogXF.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/Logger.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/MDC.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/NDC.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/PatternLayout.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/Priority.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/PropertyConfigurator.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/ProvisionNode.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/RollingFileAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/SimpleLayout.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/TTCCLayout.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/WriterAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/chainsaw/ControlPanel.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/chainsaw/DetailPanel.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/chainsaw/EventDetails.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/chainsaw/ExitAction.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/chainsaw/LoadXMLAction.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/chainsaw/LoggingReceiver.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/chainsaw/Main.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/chainsaw/MyTableModel.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/chainsaw/XMLFileHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/chainsaw/doc-files/screen_01.png
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/chainsaw/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/config/PropertyGetter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/config/PropertyPrinter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/config/PropertySetter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/config/PropertySetterException.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/config/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/AbsoluteTimeDateFormat.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/AppenderAttachableImpl.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/BoundedFIFO.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/CountingQuietWriter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/CyclicBuffer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/DateLayout.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/DateTimeDateFormat.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/FileWatchdog.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/FormattingInfo.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/ISO8601DateFormat.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/Loader.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/LogLog.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/MDCKeySetExtractor.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/NullEnumeration.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/OnlyOnceErrorHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/OptionConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/PatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/PatternParser.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/QuietWriter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/RelativeTimeDateFormat.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/SyslogQuietWriter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/SyslogWriter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/ThreadLocalMap.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/Transform.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/UtilLoggingLevel.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/helpers/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/jdbc/JDBCAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/jdbc/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/jmx/AbstractDynamicMBean.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/jmx/Agent.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/jmx/AppenderDynamicMBean.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/jmx/HierarchyDynamicMBean.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/jmx/LayoutDynamicMBean.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/jmx/LoggerDynamicMBean.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/jmx/MethodUnion.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/jmx/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/AppenderFinalizer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/DefaultLF5Configurator.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/LF5Appender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/Log4JLogRecord.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/LogLevel.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/LogLevelFormatException.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/LogRecord.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/LogRecordFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/PassingLogRecordFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/StartLogFactor5.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/util/AdapterLogRecord.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/util/DateFormatManager.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/util/LogFileParser.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/util/LogMonitorAdapter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/util/Resource.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/util/ResourceUtils.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/util/StreamUtils.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/FilteredLogTableModel.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/LF5SwingUtils.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/LogFactor5Dialog.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/LogFactor5ErrorDialog.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/LogFactor5InputDialog.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/LogFactor5LoadingDialog.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/LogTable.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/LogTableColumn.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/LogTableColumnFormatException.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/LogTableModel.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/LogTableRowRenderer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/TrackingAdjustmentListener.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryAbstractCellEditor.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryElement.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerLogRecordFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerModel.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerTree.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryImmediateEditor.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNode.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditor.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeEditorRenderer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNodeRenderer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryPath.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/categoryexplorer/TreeModelAdapter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/lf5/viewer/configure/MRUFileManager.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/JMSAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/JMSSink.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/SMTPAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/SimpleSocketServer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/SocketAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/SocketHubAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/SocketNode.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/SocketServer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/SyslogAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/TelnetAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/ZeroConfSupport.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/nt/NTEventLogAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/nt/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/or/DefaultRenderer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/or/ObjectRenderer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/or/RendererMap.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/or/ThreadGroupRenderer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/or/jms/MessageRenderer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/or/jms/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/or/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/or/sax/AttributesRenderer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/or/sax/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/BridgePatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/BridgePatternParser.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/CachedDateFormat.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/ClassNamePatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/DatePatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/FileDatePatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/FileLocationPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/FormattingInfo.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/FullLocationPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/IntegerPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/LevelPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/LineLocationPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/LineSeparatorPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/LiteralPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/LogEvent.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/LoggerPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/LoggingEventPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/MessagePatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/MethodLocationPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/NDCPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/NameAbbreviator.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/NamePatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/PatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/PatternParser.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/PropertiesPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/RelativeTimePatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/SequenceNumberPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/ThreadPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/ThrowableInformationPatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/pattern/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/rewrite/MapRewritePolicy.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/rewrite/PropertyRewritePolicy.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/rewrite/ReflectionRewritePolicy.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/rewrite/RewriteAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/rewrite/RewritePolicy.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/AppenderAttachable.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/Configurator.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/DefaultRepositorySelector.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/ErrorCode.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/ErrorHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/Filter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/HierarchyEventListener.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/LocationInfo.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/LoggerFactory.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/LoggerRepository.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/LoggingEvent.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/NOPLogger.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/NOPLoggerRepository.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/NullWriter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/OptionHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/RendererSupport.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/RepositorySelector.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/RootCategory.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/RootLogger.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/ThrowableInformation.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/ThrowableRenderer.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/ThrowableRendererSupport.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/TriggeringEventEvaluator.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/VectorWriter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/spi/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/varia/DenyAllFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/varia/ExternallyRolledFileAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/varia/FallbackErrorHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/varia/LevelMatchFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/varia/LevelRangeFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/varia/NullAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/varia/ReloadingPropertyConfigurator.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/varia/Roller.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/varia/StringMatchFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/varia/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/xml/DOMConfigurator.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/xml/Log4jEntityResolver.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/xml/SAXErrorHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/xml/UnrecognizedElementHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/xml/XMLLayout.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/java/org/apache/log4j/xml/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/javadoc/org/apache/log4j/xml/doc-files/log4j.dtd
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/javadoc/org/apache/log4j/xml/examples/XMLSample.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/javadoc/org/apache/log4j/xml/examples/doc-files/XMLSample.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/javadoc/org/apache/log4j/xml/examples/doc-files/sample1.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/javadoc/org/apache/log4j/xml/examples/doc-files/sample2.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/javadoc/org/apache/log4j/xml/examples/doc-files/sample3.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/javadoc/org/apache/log4j/xml/examples/doc-files/sample4.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/javadoc/org/apache/log4j/xml/examples/doc-files/sample5.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/resources/META-INF/LICENSE
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/resources/META-INF/NOTICE
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/resources/org/apache/log4j/lf5/config/defaultconfig.properties
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/resources/org/apache/log4j/lf5/viewer/images/channelexplorer_new.gif
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/resources/org/apache/log4j/lf5/viewer/images/channelexplorer_satellite.gif
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/resources/org/apache/log4j/lf5/viewer/images/lf5_small_icon.gif
+ create mode 100644 lib/apache-log4j-1.2.17/src/main/resources/org/apache/log4j/xml/log4j.dtd
+ create mode 100644 lib/apache-log4j-1.2.17/src/ntdll/EventLogCategories.mc
+ create mode 100644 lib/apache-log4j-1.2.17/src/ntdll/MSG00001.bin
+ create mode 100644 lib/apache-log4j-1.2.17/src/ntdll/NTEventLogAppender.def
+ create mode 100755 lib/apache-log4j-1.2.17/src/ntdll/NTEventLogAppender.rc
+ create mode 100755 lib/apache-log4j-1.2.17/src/ntdll/build.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/ntdll/nteventlog.cpp
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/ListVsVector.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/NOPWriter.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/NewVsSetLen.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/NullAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/SystemTime.java
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/history/FALKNIS.logging
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/history/GIL.logging
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/history/NAPOLI.logging
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/history/TORINO.logging
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/logging
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/package.html
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging1.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging10.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging100.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging1000.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging101.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging102.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging103.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging104.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging105.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging106.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging107.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging11.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging12.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging13.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging2.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging200.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging201.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging202.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging203.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging204.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging205.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging206.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging207.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging220.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging221.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging222.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging223.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging224.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging225.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging226.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging227.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging3.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging300.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging301.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging302.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging303.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging304.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging305.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging306.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging307.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging4.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging5.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging6.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging7.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging8.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/performance/java/org/apache/log4j/performance/xml/logging9.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/apt/download.apt
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/apt/index.apt
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/apt/publications.apt
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/apt/roadmap.apt
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/fml/faq.fml
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/maven-site.vm
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/resources/css/maven-base.css
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/resources/css/site.css
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/resources/images/logo.jpg
+ create mode 100755 lib/apache-log4j-1.2.17/src/site/resources/images/ls-logo.jpg
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/resources/images/maven-feather.png
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/resources/images/od.gif
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/site.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/xdoc/building.xml
+ create mode 100644 lib/apache-log4j-1.2.17/src/site/xdoc/manual.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/README
+ create mode 100644 lib/apache-log4j-1.2.17/tests/build.properties.sample
+ create mode 100644 lib/apache-log4j-1.2.17/tests/build.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/RFA1.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/defaultInit3.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/fallback1.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/filter1.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/hierarchyThreshold1.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/hierarchyThreshold2.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/hierarchyThreshold3.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/hierarchyThreshold4.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/hierarchyThreshold5.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/hierarchyThreshold6.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/hierarchyThreshold7.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/hierarchyThreshold8.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout.mdc.1.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout1.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout10.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout11.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout12.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout13.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout14.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout15.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout16.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout2.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout3.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout4.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout5.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout6.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout7.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout8.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/pattern/enhancedPatternLayout9.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout.mdc.1.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout1.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout10.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout11.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout12.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout13.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout14.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout2.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout3.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout4.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout5.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout6.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout7.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout8.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/patternLayout9.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/socketServer1.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/socketServer2.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/socketServer3.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/socketServer4.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/socketServer5.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/socketServer6.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/socketServer7.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/socketServer8.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/DOMTest4.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/DOMTest4_A1.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/DOMTest4_A2.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/DOMTestCase1.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/SocketAppenderTestConfig.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/categoryfactory1.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/categoryfactory2.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/customLevel1.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/customLevel2.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/customLevel3.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/customLevel4.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/customLogger1.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/customLogger2.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/customLogger3.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/defaultInit.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/fallback1.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/loggerfactory1.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/smtpAppender1.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/testReset.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/input/xml/throwableRenderer1.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/log4j-coding-convention.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/resources/L7D_en_US.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/resources/L7D_fr.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/resources/L7D_fr_CH.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/resources/TestLogSFPatterns.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/resources/org/apache/log4j/TestLogMFPatterns.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/resources/org/apache/log4j/TestLogSFPatterns.properties
+ create mode 100644 lib/apache-log4j-1.2.17/tests/resources/org/apache/log4j/rewrite/map.log
+ create mode 100644 lib/apache-log4j-1.2.17/tests/resources/org/apache/log4j/rewrite/map.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/resources/org/apache/log4j/rewrite/property.log
+ create mode 100644 lib/apache-log4j-1.2.17/tests/resources/org/apache/log4j/rewrite/property.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/resources/org/apache/log4j/rewrite/reflection.log
+ create mode 100644 lib/apache-log4j-1.2.17/tests/resources/org/apache/log4j/rewrite/reflection.xml
+ create mode 100755 lib/apache-log4j-1.2.17/tests/run-tests.bat
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/AsyncAppenderTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/CategoryTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/CoreTestSuite.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/DRFATestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/DefaultThrowableRendererTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/EnhancedMyPatternLayout.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/EnhancedPatternLayoutTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/EnhancedPatternLayoutTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/EnhancedThrowableRendererTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/FileAppenderTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/HTMLLayoutTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/HierarchyThresholdTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/Last.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/LayoutTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/LevelTest.java
+ create mode 100755 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/LogCapture.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/LogManagerTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/LoggerTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/MDCOrderFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/MDCTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/MinimumTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/MyPatternLayout.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/MyPatternParser.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/PatternLayoutTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/PatternLayoutTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/PriorityTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/PropertyConfiguratorTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/RFATestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/StressCategory.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/TTCCLayoutTest.java
+ create mode 100755 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/TestLogMF.java
+ create mode 100755 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/TestLogSF.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/TestLogXF.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/VectorAppender.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/VectorErrorHandler.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/customLogger/XLogger.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/customLogger/XLoggerTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/defaultInit/TestCase1.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/defaultInit/TestCase2.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/defaultInit/TestCase3.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/defaultInit/TestCase4.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/helpers/BoundedFIFOTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/helpers/CyclicBufferTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/helpers/DateLayoutTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/helpers/LogLogTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/helpers/OptionConverterTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/helpers/PatternParserTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/helpers/UtilLoggingLevelTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/net/SMTPAppenderTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/net/ShortSocketServer.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/net/SocketAppenderTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/net/SocketServerTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/net/SyslogAppenderTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/net/TelnetAppenderTest.java
+ create mode 100755 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/nt/NTEventLogAppenderTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/or/ORTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/pattern/CachedDateFormatTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/pattern/FormattingInfoTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/pattern/NameAbbreviatorTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/pattern/Num343PatternConverter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/pattern/PatternParserTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/rewrite/RewriteAppenderTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/spi/LocationInfoTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/spi/LoggingEventTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/spi/ThrowableInformationTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/stressCategory
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/stressCategory.pl
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/AbsoluteDateAndTimeFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/AbsoluteTimeFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/Compare.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/ControlFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/EnhancedJunitTestRunnerFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/EnhancedLineNumberFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/Filter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/ISO8601Filter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/JunitTestRunnerFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/LineNumberFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/RelativeTimeFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/SerializationTestHelper.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/SunReflectFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/Transformer.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/UnexpectedFormatException.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/XMLLineAttributeFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/util/XMLTimestampFilter.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/varia/ERFATestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/varia/ErrorHandlerTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/varia/LevelMatchFilterTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/xml/CustomLevelTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/xml/DOMTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/xml/XLevel.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/xml/XMLLayoutTest.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/xml/XMLLayoutTestCase.java
+ create mode 100644 lib/apache-log4j-1.2.17/tests/sun_checks.xml
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/LevelMatchFilter_accept
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/LevelMatchFilter_deny
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/PatternParser_mdc
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/customLevel.1
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/customLevel.2
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/customLevel.3
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/customLevel.4
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/customLogger.1
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/customLogger.2
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/dom.A1.1
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/dom.A1.4
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/dom.A2.1
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/dom.A2.4
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/drfa_blockedRollover.log
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/fallback1
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/hierarchyThreshold.1
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/hierarchyThreshold.2
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/hierarchyThreshold.3
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/hierarchyThreshold.4
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/hierarchyThreshold.5
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/hierarchyThreshold.6
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/hierarchyThreshold.7
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/hierarchyThreshold.8
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.1
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.10
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.11
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.12
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.13
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.14
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.15
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.2
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.3
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.4
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.5
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.6
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.7
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.8
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.9
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.mdc.1
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.mdc.2
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.throwable
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.1
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.10
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.11
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.12
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.13
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.14
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.2
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.3
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.4
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.5
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.6
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.7
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.8
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.9
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.mdc.1
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/patternLayout.mdc.clear
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/prudent
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/serialization/exception.bin
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/serialization/info.bin
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/serialization/location.bin
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/serialization/mdc.bin
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/serialization/ndc.bin
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/serialization/simple.bin
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/simple
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/socketServer.1
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/socketServer.2
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/socketServer.3
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/socketServer.4
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/socketServer.5
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/socketServer.6
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/socketServer.7
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/socketServer.8
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/ttcc
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/xmlLayout.1
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/xmlLayout.2
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/xmlLayout.3
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/xmlLayout.mdc.1
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/xmlLayout.mdc.2
+ create mode 100644 lib/apache-log4j-1.2.17/tests/witness/xmlLayout.null
+training@ubuntu-devops:~/repomartes/HelloWorldAnt$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': amartinb
+Password for 'https://amartinb@github.com': 
+Counting objects: 1813, done.
+Compressing objects:   0% (1/1760)   Compressing objects:   1% (18/1760)   Compressing objects:   2% (36/1760)   Compressing objects:   3% (53/1760)   Compressing objects:   4% (71/1760)   Compressing objects:   5% (88/1760)   Compressing objects:   6% (106/1760)   Compressing objects:   7% (124/1760)   Compressing objects:   8% (141/1760)   Compressing objects:   9% (159/1760)   Compressing objects:  10% (176/1760)   Compressing objects:  11% (194/1760)   Compressing objects:  12% (212/1760)   Compressing objects:  13% (229/1760)   Compressing objects:  14% (247/1760)   Compressing objects:  15% (264/1760)   Compressing objects:  16% (282/1760)   Compressing objects:  17% (300/1760)   Compressing objects:  18% (317/1760)   Compressing objects:  19% (335/1760)   Compressing objects:  20% (352/1760)   Compressing objects:  21% (370/1760)   Compressing objects:  22% (388/1760)   Compressing objects:  23% (405/1760)   Compressing objects:  24% (423/1760)   Compressing objects:  25% (440/1760)   Compressing objects:  26% (458/1760)   Compressing objects:  27% (476/1760)   Compressing objects:  28% (493/1760)   Compressing objects:  29% (511/1760)   Compressing objects:  30% (528/1760)   Compressing objects:  31% (546/1760)   Compressing objects:  32% (564/1760)   Compressing objects:  33% (581/1760)   Compressing objects:  34% (599/1760)   Compressing objects:  35% (616/1760)   Compressing objects:  36% (634/1760)   Compressing objects:  37% (652/1760)   Compressing objects:  38% (669/1760)   Compressing objects:  39% (687/1760)   Compressing objects:  40% (704/1760)   Compressing objects:  41% (722/1760)   Compressing objects:  42% (740/1760)   Compressing objects:  43% (757/1760)   Compressing objects:  44% (775/1760)   Compressing objects:  45% (792/1760)   Compressing objects:  46% (810/1760)   Compressing objects:  47% (828/1760)   Compressing objects:  48% (845/1760)   Compressing objects:  49% (863/1760)   Compressing objects:  50% (880/1760)   Compressing objects:  51% (898/1760)   Compressing objects:  52% (916/1760)   Compressing objects:  53% (933/1760)   Compressing objects:  54% (951/1760)   Compressing objects:  55% (968/1760)   Compressing objects:  55% (984/1760)   Compressing objects:  56% (986/1760)   Compressing objects:  57% (1004/1760)   Compressing objects:  58% (1021/1760)   Compressing objects:  59% (1039/1760)   Compressing objects:  60% (1056/1760)   Compressing objects:  61% (1074/1760)   Compressing objects:  62% (1092/1760)   Compressing objects:  63% (1109/1760)   Compressing objects:  64% (1127/1760)   Compressing objects:  65% (1144/1760)   Compressing objects:  66% (1162/1760)   Compressing objects:  67% (1180/1760)   Compressing objects:  68% (1197/1760)   Compressing objects:  69% (1215/1760)   Compressing objects:  70% (1232/1760)   Compressing objects:  71% (1250/1760)   Compressing objects:  72% (1268/1760)   Compressing objects:  73% (1285/1760)   Compressing objects:  74% (1303/1760)   Compressing objects:  75% (1320/1760)   Compressing objects:  76% (1338/1760)   Compressing objects:  77% (1356/1760)   Compressing objects:  78% (1373/1760)   Compressing objects:  79% (1391/1760)   Compressing objects:  80% (1408/1760)   Compressing objects:  81% (1426/1760)   Compressing objects:  82% (1444/1760)   Compressing objects:  83% (1461/1760)   Compressing objects:  84% (1479/1760)   Compressing objects:  85% (1496/1760)   Compressing objects:  86% (1514/1760)   Compressing objects:  87% (1532/1760)   Compressing objects:  88% (1549/1760)   Compressing objects:  89% (1567/1760)   Compressing objects:  90% (1584/1760)   Compressing objects:  91% (1602/1760)   Compressing objects:  92% (1620/1760)   Compressing objects:  93% (1637/1760)   Compressing objects:  94% (1655/1760)   Compressing objects:  95% (1672/1760)   Compressing objects:  96% (1690/1760)   Compressing objects:  97% (1708/1760)   Compressing objects:  98% (1725/1760)   Compressing objects:  99% (1743/1760)   Compressing objects: 100% (1760/1760)   Compressing objects: 100% (1760/1760), done.
+Writing objects:   0% (1/1808)   Writing objects:   1% (19/1808)   Writing objects:   2% (37/1808)   Writing objects:   3% (55/1808)   Writing objects:   4% (74/1808)   Writing objects:   5% (91/1808)   Writing objects:   6% (109/1808)   Writing objects:   7% (127/1808)   Writing objects:   8% (145/1808)   Writing objects:   9% (167/1808)   Writing objects:  10% (181/1808)   Writing objects:  11% (199/1808)   Writing objects:  12% (218/1808)   Writing objects:  13% (236/1808)   Writing objects:  14% (254/1808)   Writing objects:  15% (272/1808)   Writing objects:  16% (290/1808)   Writing objects:  17% (308/1808)   Writing objects:  18% (326/1808)   Writing objects:  19% (344/1808)   Writing objects:  20% (362/1808)   Writing objects:  21% (380/1808)   Writing objects:  22% (398/1808)   Writing objects:  23% (416/1808)   Writing objects:  24% (434/1808)   Writing objects:  25% (452/1808)   Writing objects:  26% (471/1808)   Writing objects:  27% (489/1808)   Writing objects:  28% (508/1808)   Writing objects:  29% (525/1808)   Writing objects:  30% (543/1808)   Writing objects:  31% (561/1808)   Writing objects:  32% (579/1808)   Writing objects:  33% (597/1808)   Writing objects:  34% (615/1808)   Writing objects:  35% (633/1808)   Writing objects:  36% (651/1808)   Writing objects:  37% (669/1808)   Writing objects:  38% (693/1808)   Writing objects:  39% (706/1808)   Writing objects:  40% (724/1808)   Writing objects:  41% (742/1808)   Writing objects:  41% (755/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  42% (766/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  43% (778/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  44% (796/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  45% (814/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  46% (833/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  47% (852/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  48% (872/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  49% (886/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  50% (904/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  51% (923/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  52% (941/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  53% (959/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  54% (977/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  55% (995/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  56% (1013/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  57% (1031/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  58% (1049/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  59% (1067/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  60% (1085/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  61% (1103/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  62% (1121/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  63% (1141/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  64% (1158/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  65% (1176/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  66% (1194/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  67% (1212/1808), 1.05 MiB | 448.00 KiB/s   Writing objects:  68% (1230/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  69% (1249/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  70% (1266/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  71% (1284/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  72% (1302/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  73% (1320/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  74% (1338/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  75% (1356/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  76% (1375/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  77% (1393/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  78% (1412/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  79% (1429/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  80% (1447/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  81% (1465/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  82% (1483/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  83% (1501/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  84% (1519/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  85% (1542/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  86% (1555/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  87% (1576/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  88% (1592/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  89% (1610/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  90% (1628/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  90% (1641/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  91% (1646/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  92% (1664/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  93% (1682/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  94% (1702/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  95% (1718/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  96% (1738/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  97% (1757/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  98% (1773/1808), 1.94 MiB | 683.00 KiB/s   Writing objects:  99% (1791/1808), 1.94 MiB | 683.00 KiB/s   Writing objects: 100% (1808/1808), 1.94 MiB | 683.00 KiB/s   Writing objects: 100% (1808/1808), 2.38 MiB | 683.00 KiB/s, done.
+Total 1808 (delta 1181), reused 0 (delta 0)
+To https://github.com/amartinb/HelloWorldAnt.git
+   a373e8e..d285bbe  master -> master
+training@ubuntu-devops:~/repomartes/HelloWorldAnt$ pwd
+/home/training/repomartes/HelloWorldAnt
+training@ubuntu-devops:~/repomartes/HelloWorldAnt$ vi .gitin[Kgnore
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H".gitignore" 12L, 189C[>c[1;1H*.class
+
+[34m# Mobile Tools for Java (J2ME)[m
+.mtj.tmp/
+
+[34m# Package Files #[m
+*.jar
+*.war
+*.ear
+
+[34m# virtual machine crash logs, see http://www.java.com/en/download/help/error_hott[12;1Hspot.xml[m
+hs_err_pid*
+[1m[34m~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [2
